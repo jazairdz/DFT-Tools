@@ -23,7 +23,7 @@ HDFfilename = LDAFilename+'.h5'
 # Can be commented after the first run
 Converter = Wien2kConverter(filename=LDAFilename,repacking=True)
 Converter.convert_dmft_input()
-Converter.convert_par_proj_input()
+Converter.convert_parproj_input()
 
 #check if there are previous runs:
 previous_runs = 0
