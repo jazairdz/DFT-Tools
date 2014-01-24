@@ -58,7 +58,7 @@ N = SK.corr_shells[0][3]
 l = SK.corr_shells[0][2]
 
 # Init the Solver:
-S = Solver(Beta = Beta, Uint = Uint, JHund = JHund, l = l)
+S = Solver(beta = Beta, l = l)
 S.Nmoments=10
 
 # set atomic levels:
